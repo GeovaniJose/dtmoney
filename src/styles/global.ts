@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #f0f2f5;
-    --shape: #ffffff
+    --shape: #ffffff;
     
     --red: #e52e54;
     --blue: #5429cc;
@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
 
